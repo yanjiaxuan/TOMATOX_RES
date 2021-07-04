@@ -25,5 +25,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm run update
-    - run: git add result.json
-    - run: git commit -m "auto update search mapper"
+      # commit result.json
+    - name: Commit result.json
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: yanjiaxuan
+        author_email: 330544968@qq.com
+        message: "AUTO UPDATE SEARCH MAPPER"
+        add: "result.json"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
