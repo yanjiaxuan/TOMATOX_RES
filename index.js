@@ -28,11 +28,9 @@ function queryData(curPage) {
                 page++
                 queryData(page)
             } else if (page === obj.pagecount + 10) {
-                setTimeout(() => {
-                    fs.writeFileSync('./result.json', JSON.stringify(finalData))
-                    console.log('写入完成')
-                    process.exit(1)
-                }, 15000)
+                fs.writeFileSync('./result.json', JSON.stringify(finalData))
+                console.log('写入完成')
+                process.exit(0)
             }
         })
     }).on("error", e => console.log(e.message))
