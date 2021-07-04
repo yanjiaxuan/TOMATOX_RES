@@ -4,11 +4,11 @@
 name: Auto commit
 
 on:
-  push:
-    branches: [ main ]
+  schedule:
+    - cron: '0 16 * * *'
 
 jobs:
-  build:
+  build-and-commit:
 
     runs-on: ubuntu-latest
 
@@ -19,12 +19,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: PULL SEARCH MAPPER FROM REMOTE ADDRESS
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm run update
+
       # commit result.json
     - name: Commit result.json
       uses: EndBug/add-and-commit@v4
@@ -34,4 +35,18 @@ jobs:
         message: "AUTO UPDATE SEARCH MAPPER"
         add: "result.json"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}0
+
+  sync:
+    needs: build-and-commit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+        with:
+          # 来源仓库
+          source-repo: "git@github.com:yanjiaxuan/TOMATOX_RES.git"
+          # 目标仓库
+          destination-repo: "git@gitee.com:yanjiaxuan/TOMATOX_RES.git"
