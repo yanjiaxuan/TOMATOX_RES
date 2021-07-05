@@ -28,7 +28,12 @@ function queryData(curPage) {
                 page++
                 queryData(page)
             } else if (page === obj.pagecount + 10) {
-                fs.writeFileSync('./result.json', JSON.stringify(finalData))
+                const oldRes = JSON.parse(fs.readFileSync('./result.json', {encoding: "utf-8"}))
+                const newRes = {
+                    ...oldRes,
+                    ...finalData
+                }
+                fs.writeFileSync('./result.json', JSON.stringify(newRes), {encoding: "utf-8"})
                 console.log('写入完成')
                 process.exit(0)
             }
@@ -37,4 +42,3 @@ function queryData(curPage) {
 }
 
 queryData(page);
-
