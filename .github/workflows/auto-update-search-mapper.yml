@@ -37,7 +37,7 @@ jobs:
         message: "AUTO UPDATE SEARCH MAPPER"
         add: "result.json"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}0
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   sync:
     needs: build-and-commit
