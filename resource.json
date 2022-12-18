@@ -1,0 +1,178 @@
+[
+  {
+    "id": "39影视",
+    "src": "https://www.39kan.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "天堂资源",
+    "src": "http://vipmv.cc/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "8090资源",
+    "src": "http://zy.yilans.net:8090/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "6U资源",
+    "src": "http://zy.ataoju.com/inc/api.php"
+  },
+  {
+    "id": "乐多资源网",
+    "src": "http://api.leduozy.com/inc/api.php"
+  },
+  {
+    "id": "橘猫影视",
+    "src": "http://www.zitv.cc/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "乐活影视",
+    "src": "https://lehootv.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "快播资源",
+    "src": "http://www.kuaibozy.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "百度云资源",
+    "src": "https://api.apibdzy.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "FOX资源",
+    "src": "https://api.foxzyapi.com/api.php/provide/vod/from/foxyun/at/xml"
+  },
+  {
+    "id": "卧龙资源站综合资源",
+    "src": "https://collect.wolongzyw.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "番茄影视资源网",
+    "src": "http://api.fqzy.cc/seacmsapi.php/provide/vod/at/xml"
+  },
+  {
+    "id": "淘片资源采集网",
+    "src": "https://taopianapi.com/home/cjapi/as/mc/vod/xml"
+  },
+  {
+    "id": "新浪资源",
+    "src": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/at/xml"
+  },
+  {
+    "id": "量子资源",
+    "src": "https://cj.lziapi.com/api.php/provide/vod/from/liangzi/at/xml"
+  },
+  {
+    "id": "鱼乐资源网",
+    "src": "https://api.yulecj.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "闪电资源网",
+    "src": "https://sdzyapi.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "步步高资源",
+    "src": "https://api.yparse.com/api/xml"
+  },
+  {
+    "id": "CK资源",
+    "src": "https://ckzy.me/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "唯一资源",
+    "src": "http://api.travelbooking.cc/xml"
+  },
+  {
+    "id": "光速资源",
+    "src": "https://api.guangsuapi.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "金鹰资源",
+    "src": "https://jyzyapi.com/provide/vod/at/xml"
+  },
+  {
+    "id": "天空资源",
+    "src": "https://api.tiankongapi.com/api.php/provide/vod/at/xml/from/tkm3u8"
+  },
+  {
+    "id": "八戒采集",
+    "src": "http://cj.bajiecaiji.com/inc/bjm3u8.php"
+  },
+  {
+    "id": "星辰资源",
+    "src": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "酷点资源",
+    "src": "https://kudian8.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "飘花资源",
+    "src": "http://www.zzrhgg.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "523资源",
+    "src": "https://caiji.523zyw.com/inc/seacmsapi.php"
+  },
+  {
+    "id": "奶茶资源",
+    "src": "https://caiji.naichaapi.com/inc/api.php"
+  },
+  {
+    "id": "葡萄资源",
+    "src": "https://caiji.putaozy.net/inc/api.php"
+  },
+  {
+    "id": "丝袜资源",
+    "src": "https://siwazyw.cc/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "老鸭",
+    "src": "https://api.apilyzy.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "花魁",
+    "src": "https://caiji.huakuiapi.com/inc/api.php"
+  },
+  {
+    "id": "探探资源",
+    "src": "https://apittzy.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "KK资源网",
+    "src": "https://kkzy.me/api.php/provide/vod/at/xmlsea"
+  },
+  {
+    "id": "色猫资源",
+    "src": "https://api.maozyapi.com/inc/api.php"
+  },
+  {
+    "id": "AG资源",
+    "src": "http://wmcj8.com/inc/sapi.php"
+  },
+  {
+    "id": "爱播资源",
+    "src": "https://cj.apiabzy.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "shayu",
+    "src": "https://shayuapi.com/api.php/Seacms/vod"
+  },
+  {
+    "id": "76色色",
+    "src": "http://m.7777688.com/inc/api.php"
+  },
+  {
+    "id": "乐播",
+    "src": "https://lbapi9.com/api.php/provide/vod/at/xml"
+  },
+  {
+    "id": "BT天堂",
+    "src": "http://bttcj.com/inc/sapi.php"
+  },
+  {
+    "id": "花椒资源",
+    "src": "https://apihjzy.com/api.php/Seacms/vod/at/xml"
+  },
+  {
+    "id": "草莓资源",
+    "src": "https://caiji.caomeiapi.com/inc/api.php"
+  }
+]
